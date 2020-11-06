@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Parallel Testing Suite" parallel = "methods" thread-count = "2">
+   <test name = "Run Test Cases" thread-count = "2" parallel = "methods" verbose="1">
+   <parameter name="BrowserType" value="chrome"></parameter>
+      <classes>
+         <class name = "TestCases.RunTestCases" >
+         		<methods>
+         			<include name="LoginTestCase1"/>
+                    <include name="LoginTestCase2"/>
+                </methods>
+         </class>
+      </classes>
+   </test>
+</suite>

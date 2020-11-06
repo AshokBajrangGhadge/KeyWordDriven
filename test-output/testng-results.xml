@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-06T11:26:04 IST" name="Parallel Testing Suite" finished-at="2020-11-06T11:30:29 IST" duration-ms="265503">
+    <groups>
+    </groups>
+    <test started-at="2020-11-06T11:26:04 IST" name="Run Test Cases" finished-at="2020-11-06T11:28:16 IST" duration-ms="132698">
+      <class name="TestCases.RunTestCases">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestCases.RunTestCases@6497b078]" started-at="2020-11-06T11:26:04 IST" name="beforeMethod" finished-at="2020-11-06T11:26:10 IST" duration-ms="6318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginTestCase2()[pri:0, instance:TestCases.RunTestCases@6497b078]" started-at="2020-11-06T11:26:10 IST" name="LoginTestCase2" finished-at="2020-11-06T11:28:16 IST" duration-ms="126345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCases.RunTestCases@6497b078]" started-at="2020-11-06T11:28:16 IST" name="afterMethod" finished-at="2020-11-06T11:28:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCases.RunTestCases -->
+    </test> <!-- Run Test Cases -->
+    <test started-at="2020-11-06T11:28:16 IST" name="Run Test Cases1" finished-at="2020-11-06T11:30:29 IST" duration-ms="132786">
+      <class name="TestCases.RunTestCases">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestCases.RunTestCases@62e7f11d]" started-at="2020-11-06T11:28:16 IST" name="beforeMethod" finished-at="2020-11-06T11:28:22 IST" duration-ms="5271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginTestCase1()[pri:0, instance:TestCases.RunTestCases@62e7f11d]" started-at="2020-11-06T11:28:22 IST" name="LoginTestCase1" finished-at="2020-11-06T11:30:29 IST" duration-ms="127506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCases.RunTestCases@62e7f11d]" started-at="2020-11-06T11:30:29 IST" name="afterMethod" finished-at="2020-11-06T11:30:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCases.RunTestCases -->
+    </test> <!-- Run Test Cases1 -->
+  </suite> <!-- Parallel Testing Suite -->
+</testng-results>
